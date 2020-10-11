@@ -11,3 +11,77 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* project page styling -- START */
+.section-header {
+  text-align: center;
+}
+.project-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-item {
+  width: 40%;
+  margin: 12px;
+  display: flex;
+  flex-direction: column;
+  min-height: 350px;
+  text-align: center;
+}
+
+.project-item a {
+  color: white;
+}
+
+.project-header {
+  background-color: darkolivegreen;
+}
+
+.project-title {
+  font-size: 18px;
+  
+}
+
+.project-gh {
+  font-size: 14px;
+}
+
+.project-tech {
+ background-color: darkolivegreen;
+ margin: 0;
+ color: white;
+ font-size: 14px;
+}
+
+.budget-tracker {
+  background-image: url("./assets/proj-images/budget-tracker.png");
+  background-size: cover;
+}
+
+.campgrounds-inc {
+  background-image: url("./assets/proj-images/campgrounds-inc.png");
+  background-size: cover;
+}
+
+.tech-blog {
+  background-image: url("./assets/proj-images/tech-blog.png");
+  background-size: cover;
+}
+
+.note-taker {
+  background-image: url("./assets/proj-images/note-taker.png");
+  background-size: cover;
+}
+
+.find-my-munchies {
+  background-image: url("./assets/proj-images/find-my-munchies.png");
+  background-size: cover;
+}
+
+.workday-scheduler {
+  background-image: url("./assets/proj-images/workday-scheduler.png");
+  background-size: cover;
+}
+/* project page styling -- END */

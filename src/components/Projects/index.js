@@ -58,8 +58,9 @@ function Projects() {
                             <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="project-title">
                                 {project.name}
                             </a>
+                            <br></br>
                             <a href={project.ghUrl} target="_blank" rel="noopener noreferrer" className="project-gh">
-                                GitHub Repository
+                                GitHub Repo
                             </a>
                         </div>
                         <p className="project-tech">{project.tech}</p>
