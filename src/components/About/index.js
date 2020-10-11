@@ -6,6 +6,9 @@ function About() {
         <section>
             <h1 id="about"> Who am I? </h1>
             <img src={coverImage} style={{ width: "100%"}} alt="cover" />
+            <p>
+                ABOUT ME 
+            </p>
         </section>
     )
 }
