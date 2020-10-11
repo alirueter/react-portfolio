@@ -55,10 +55,10 @@ function Projects() {
                 {projects.map(project => (
                     <div className={`${project.style} project-item`} key={project.name}>
                         <div className="project-header">
-                            <a href={project.liveUrl} target="_blank" className="project-title">
+                            <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="project-title">
                                 {project.name}
                             </a>
-                            <a href={project.ghUrl} target="_blank" className="project-gh">
+                            <a href={project.ghUrl} target="_blank" rel="noopener noreferrer" className="project-gh">
                                 GitHub Repository
                             </a>
                         </div>
