@@ -5,7 +5,7 @@ function About() {
     return (
         <section>
             <h2 id="about" className="section-header"> About Me </h2>
-            <img src={coverImage} style={{ width: "50%"}} alt="cover" className="me-pic"/>
+            <img src={coverImage} style={{ width: "40%"}} alt="cover" className="me-pic"/>
             <p className="about-text">
                 My name is Ali and I've been around the Web Dev world for a few years now.
                 I was first introduced to HTML, JavaScript, and CSS in one of my intro college courses and I've been slowly building my coding skillset ever since.
@@ -14,7 +14,7 @@ function About() {
 
                 <br></br>
                 <br></br>
-                How do you comfort a JavaScript bug? You console it.
+                How do you comfort a JavaScript bug? <span className="joke">You console it.</span>
                 <br></br>
                 <br></br>
                 Oh, and I like nerdy jokes.

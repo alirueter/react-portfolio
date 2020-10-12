@@ -67,6 +67,10 @@ a:hover {
 .about-text {
   margin-left: 10px;
 }
+
+.joke {
+  font-style: italic;
+}
 /* about me styles -- END */
 
 /* contact page styling -- START */
