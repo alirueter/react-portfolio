@@ -7,3 +7,6 @@ View my portfolio: https://alirueter.github.io/react-portfolio/
 
 ## Questions
 If you have any questions about my portfolio, you can email me at rueter.alison@gmail.com. You can also view my other work on my GitHub profile: [alirueter](http://github.com/alirueter/).
+
+### Note
+I still need to finish updating the site so that it is responsive for mobile.
