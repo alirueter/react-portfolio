@@ -12,6 +12,7 @@ body {
 h2, h3 {
   font-family: sans-serif;
   font-weight: lighter;
+  margin-left: 10px;
 }
 
 h1 {
@@ -32,7 +33,8 @@ a:hover {
   text-align: left;
   font-family: sans-serif;
   font-weight: lighter;
-  margin: 20px 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 /* general styles -- END */
 
@@ -57,7 +59,33 @@ a:hover {
 .list-item {
   margin: 0px 20px;
 }
-/* nav styles -- START */
+
+.navActive {
+  color: white;
+}
+/* nav styles -- END */
+
+/* footer styles -- START */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #bcb8b1;
+  color: #463f3a;
+}
+
+.footer-list li {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0px 20px;
+  color: white;
+}
+
+.footer a:hover {
+  color: white;
+}
+/* footer styles -- END */
 
 /* about me styles -- START */
 .me-pic {
@@ -74,6 +102,9 @@ a:hover {
 /* about me styles -- END */
 
 /* contact page styling -- START */
+form {
+  margin-left: 10px;
+}
 label {
   display: block;
   width: 50%;
@@ -109,7 +140,7 @@ button {
   font-weight: lighter;
   font-size: 12pt;
 }
-/* contact page styling -- START */
+/* contact page styling -- END */
 
 /* project page styling -- START */
 .project-wrapper {
@@ -194,3 +225,21 @@ button {
   background-size: cover;
 }
 /* project page styling -- END */
+
+/* resume page -- START */
+.res-link{
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.res-link a {
+  color: #8a817c;
+}
+
+.res-link a:hover{
+  color: #e0afa0;
+}
+
+.prof-list{
+  margin-bottom: 20px;
+}
+/* resume page -- END */

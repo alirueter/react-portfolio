@@ -5,10 +5,10 @@ function Resume() {
     return(
         <section>
             <h2 className="section-header">Resume</h2>
-            <p> Download my <a href={resumePdf} download={resumePdf}>resume</a>.</p>
+            <p className="res-link"> Download my <a href={resumePdf} download={resumePdf}>resume</a>.</p>
         
             <h3>Front-end Proficiencies</h3>
-            <ul>
+            <ul className="prof-list">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
