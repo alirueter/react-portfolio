@@ -1,14 +1,73 @@
+/* general styles -- START */
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
 body {
-  margin: 10px;
-  font-family: sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: column;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h2, h3 {
+  font-family: sans-serif;
+  font-weight: lighter;
 }
+
+h1 {
+  font-weight: lighter;
+  color: white;
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #463f3a;
+}
+
+a:hover {
+  color: white;
+}
+.section-header {
+  text-align: left;
+  font-family: sans-serif;
+  font-weight: lighter;
+  margin: 20px 10px;
+}
+/* general styles -- END */
+
+/* nav & header styles -- START */
+.header {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  min-height: 75px;
+  background-color: #e0afa0;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  align-items: left;
+  
+}
+
+.list-item {
+  margin: 0px 20px;
+}
+/* nav styles -- START */
+
+/* about me styles -- START */
+.me-pic {
+  margin: 10px;
+}
+
+.about-text {
+  margin-left: 10px;
+}
+/* about me styles -- END */
 
 /* contact page styling -- START */
 label {
@@ -25,6 +84,7 @@ input {
   width: 50%;
   font-size: 12pt;
   margin: 5px 0px;
+  font-family: sans-serif;
 }
 
 textarea {
@@ -35,46 +95,54 @@ textarea {
 }
 
 button {
-  background-color: darkolivegreen;
+  background-color: #e0afa0;
   color: white;
   border-radius: 3px;
-  border-style: solid;
-  border-color: grey;
+  border-style: none;
   width: 50%;
   height: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: lighter;
+  font-size: 12pt;
 }
 /* contact page styling -- START */
 
 /* project page styling -- START */
-.section-header {
-  text-align: center;
-}
 .project-wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   flex-wrap: wrap;
+  margin-left: 10px;
 }
 
 .project-item {
   width: 40%;
-  margin: 12px;
+  margin-right: 5%;
+  margin-bottom: 5%;
   display: flex;
   flex-direction: column;
-  min-height: 350px;
+  min-height: 300px;
   text-align: center;
+  border: solid;
+  border-color: #463f3a;
+  border-width: 2px;
 }
 
 .project-item a {
   color: white;
 }
 
+.project-item a:hover {
+  color: #463f3a;
+}
+
 .project-header {
-  background-color: darkolivegreen;
+  background-color: #bcb8b1;
+  padding-top: 4px;
 }
 
 .project-title {
   font-size: 18px;
-  
 }
 
 .project-gh {
@@ -82,10 +150,14 @@ button {
 }
 
 .project-tech {
- background-color: darkolivegreen;
+ background-color: #bcb8b1;;
  margin: 0;
  color: white;
  font-size: 14px;
+ padding-bottom: 4px;
+ border-bottom: solid;
+ border-width: 1px;
+ border-color: #463f3a;
 }
 
 .budget-tracker {
