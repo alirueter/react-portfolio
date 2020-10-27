@@ -5,6 +5,8 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
+import logo from './assets/logo-pack/white.png';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('Projects');
@@ -25,7 +27,7 @@ function App() {
   return (
     <div>
       <header className="header">
-        <h1>Ali Rueter</h1>
+        <h1>alison rueter</h1>
         <Nav currentPage={currentPage} setCurrentPage={setCurrentPage}/>
       </header>
       <main className="content-wrapper">

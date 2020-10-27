@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Playfair Display', serif;
   display: flex;
   flex-direction: column;
 }
@@ -19,6 +19,7 @@ h1 {
   font-weight: lighter;
   color: white;
   margin-left: 10px;
+  font-family: 'Playfair Display', serif;
 }
 
 a {
@@ -143,7 +144,7 @@ button {
 /* contact page styling -- END */
 
 /* project page styling -- START */
-.project-wrapper {
+/* .project-wrapper {
   display: flex;
   justify-content: left;
   flex-wrap: wrap;
@@ -223,7 +224,7 @@ button {
 .workday-scheduler {
   background-image: url("./assets/proj-images/workday-scheduler.png");
   background-size: cover;
-}
+} */
 /* project page styling -- END */
 
 /* resume page -- START */
