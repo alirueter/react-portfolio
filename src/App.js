@@ -5,7 +5,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
-import logo from './assets/logo-pack/white.png';
+// import logo from '/assets/logo-pack/white.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {

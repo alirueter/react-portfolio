@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
-import logo from '../../assets/logo-pack/black.png'
+// import logo from '/assets/logo-pack/black.png'
 function Nav(props) {
     const pages = ['About', 'Projects', 'Contact', 'Resume'];
 

@@ -68,7 +68,7 @@ a:hover {
 
 /* footer styles -- START */
 .footer {
-  position: fixed;
+  position: sticky;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -149,9 +149,9 @@ button {
   justify-content: left;
   flex-wrap: wrap;
   margin-left: 10px;
-}
+} */
 
-.project-item {
+/* .project-item {
   width: 40%;
   margin-right: 5%;
   margin-bottom: 5%;
@@ -162,30 +162,30 @@ button {
   border: solid;
   border-color: #463f3a;
   border-width: 2px;
-}
+} */
 
-.project-item a {
+/* .project-item a {
   color: white;
-}
+} */
 
-.project-item a:hover {
+/* .project-item a:hover {
   color: #463f3a;
-}
+} */
 
-.project-header {
+/* .project-header {
   background-color: #bcb8b1;
   padding-top: 4px;
-}
+} */
 
-.project-title {
+/* .project-title {
   font-size: 18px;
-}
+} */
 
-.project-gh {
+/* .project-gh {
   font-size: 14px;
-}
+} */
 
-.project-tech {
+/* .project-tech {
  background-color: #bcb8b1;;
  margin: 0;
  color: white;
@@ -194,37 +194,15 @@ button {
  border-bottom: solid;
  border-width: 1px;
  border-color: #463f3a;
-}
-
-.budget-tracker {
-  background-image: url("./assets/proj-images/budget-tracker.png");
-  background-size: cover;
-}
-
-.campgrounds-inc {
-  background-image: url("./assets/proj-images/campgrounds-inc.png");
-  background-size: cover;
-}
-
-.tech-blog {
-  background-image: url("./assets/proj-images/tech-blog.png");
-  background-size: cover;
-}
-
-.note-taker {
-  background-image: url("./assets/proj-images/note-taker.png");
-  background-size: cover;
-}
-
-.find-my-munchies {
-  background-image: url("./assets/proj-images/find-my-munchies.png");
-  background-size: cover;
-}
-
-.workday-scheduler {
-  background-image: url("./assets/proj-images/workday-scheduler.png");
-  background-size: cover;
 } */
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+
 /* project page styling -- END */
 
 /* resume page -- START */
