@@ -59,63 +59,33 @@ const projects = [
 function Projects() {
 
     return (
-    //    <section>
-    //         <h2 className="section-header">Projects</h2>
-    //         <div className="project-wrapper">
-    //             {projects.map(project => (
-    //                 <div className={`${project.style} project-item`} key={project.name}>
-    //                     <div className="project-header">
-    //                         <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="project-title">
-    //                             {project.name}
-    //                         </a>
-    //                         <br></br>
-    //                         <a href={project.ghUrl} target="_blank" rel="noopener noreferrer" className="project-gh">
-    //                             GitHub Repo
-    //                         </a>
-    //                     </div>
-    //                     <p className="project-tech">{project.tech}</p>
-    //                 </div>   
-    //             ))} 
-    //         </div>
-    //     </section>
-
-            <Container fluid>
+        <Container fluid>
+            <hr class="line-1"></hr>
                 <h2 className="section-header">Projects</h2>
-                <CardColumns >
-                {projects.map(project => (
-                    <div key={project.name}>
-                        <Card>
-                        <Card.Header>{project.name}</Card.Header>
-                            <Card.Body>
-                                <Card.Img as={Image} variant="top" src={project.style}/>
-                                <Card.Title>
-                                    {project.tech}
-                                </Card.Title>
-                                <Card.Text>
+                <p class="subheading-text">Below you will find projects that I have completed during my Coding Bootcamp. Each project includes a link to both the live application as well as its GitHub repository.</p>
+            <hr class="line-2"></hr>
+            <CardColumns>
+            {projects.map(project => (
+                <div key={project.name}>
+                    <Card>
+                    <Card.Header>{project.name}</Card.Header>
+                        <Card.Body>
+                            <Card.Img as={Image} variant="top" src={project.style}/>
+                            <Card.Text>
                                 {project.description}
-                                </Card.Text>
+                                <br></br><br></br>
                                 <a href={project.liveUrl} target="_blank" class="card-link">Live Site</a>
                                 <a href={project.ghUrl} target="_blank" class="card-link">Repository</a>
-                            </Card.Body>
-                        </Card>
-                    </div>   
-                ))} 
-                </CardColumns>
-            </Container>
-            
-           
-                
-        //     <Card style={{ width: '18rem' }} border="dark">
-        //     <Card.Img variant="top" src="holder.js/100px180" />
-        //     <Card.Body>
-        //       <Card.Title>Card Title</Card.Title>
-        //       <Card.Text>
-        //         Some quick example text to build on the card title and make up the bulk of
-        //         the card's content.
-        //       </Card.Text>
-        //       <Button variant="primary">Go somewhere</Button>
-        //     </Card.Body>
-        //   </Card> 
+                            </Card.Text>
+                            <Card.Footer class="tech-styles">
+                                {project.tech}
+                            </Card.Footer>
+                        </Card.Body>
+                    </Card>
+                </div>   
+            ))} 
+            </CardColumns>
+        </Container>
     )
 
     

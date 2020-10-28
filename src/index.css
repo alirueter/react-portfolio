@@ -10,9 +10,8 @@ body {
 }
 
 h2, h3 {
-  font-family: sans-serif;
+  font-family: 'Playfair Display', serif;
   font-weight: lighter;
-  margin-left: 10px;
 }
 
 h1 {
@@ -31,8 +30,7 @@ a:hover {
   color: white;
 }
 .section-header {
-  text-align: left;
-  font-family: sans-serif;
+  text-align: center;
   font-weight: lighter;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -144,57 +142,20 @@ button {
 /* contact page styling -- END */
 
 /* project page styling -- START */
-/* .project-wrapper {
-  display: flex;
-  justify-content: left;
-  flex-wrap: wrap;
-  margin-left: 10px;
-} */
+.line-1 {
+  margin-top: 5vw;
+}
+.line-2 {
+  margin-bottom: 10vw;
+}
 
-/* .project-item {
-  width: 40%;
-  margin-right: 5%;
-  margin-bottom: 5%;
-  display: flex;
-  flex-direction: column;
-  min-height: 300px;
+.subheading-text {
+  font-family: sans-serif;
+  font-weight: lighter;
   text-align: center;
-  border: solid;
-  border-color: #463f3a;
-  border-width: 2px;
-} */
-
-/* .project-item a {
-  color: white;
-} */
-
-/* .project-item a:hover {
-  color: #463f3a;
-} */
-
-/* .project-header {
-  background-color: #bcb8b1;
-  padding-top: 4px;
-} */
-
-/* .project-title {
-  font-size: 18px;
-} */
-
-/* .project-gh {
-  font-size: 14px;
-} */
-
-/* .project-tech {
- background-color: #bcb8b1;;
- margin: 0;
- color: white;
- font-size: 14px;
- padding-bottom: 4px;
- border-bottom: solid;
- border-width: 1px;
- border-color: #463f3a;
-} */
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
 
 .card-img-top {
   width: 100%;
@@ -202,7 +163,34 @@ button {
   object-fit: cover;
 }
 
+.card, .card-header, .card-body, .card-footer{
+  border-radius:0px !important;
+}
 
+.card-header {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+}
+
+.tech-styles {
+  font-size: 14px;
+  font-family: 'Playfair Display', serif;
+  color: #87745b;
+}
+
+.card-text {
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+.card-body a {
+  color: #87745b;
+  text-decoration: underline;
+}
+
+.card-body a:hover {
+  color: #433a2f;
+  text-decoration: underline;
+}
 /* project page styling -- END */
 
 /* resume page -- START */
