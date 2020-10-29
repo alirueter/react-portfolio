@@ -32,7 +32,7 @@ a:hover {
 .section-header {
   text-align: center;
   font-weight: lighter;
-  margin-top: 20px;
+  margin-top: 25px;
   margin-bottom: 20px;
 }
 /* general styles -- END */
@@ -65,24 +65,32 @@ a:hover {
 /* nav styles -- END */
 
 /* footer styles -- START */
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
 .footer {
-  position: sticky;
-  left: 0;
+  /* position: absolute; */
+  right: 0;
   bottom: 0;
-  width: 100%;
-  background-color: #bcb8b1;
-  color: #463f3a;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
 }
 
 .footer-list li {
   font-size: 14px;
   font-weight: bold;
-  padding: 0px 20px;
-  color: white;
+}
+
+.footer a{
+  color: #87745b;
 }
 
 .footer a:hover {
-  color: white;
+  color: #433a2f;
 }
 /* footer styles -- END */
 
@@ -146,7 +154,7 @@ button {
   margin-top: 5vw;
 }
 .line-2 {
-  margin-bottom: 10vw;
+  margin-bottom: 7vw;
 }
 
 .subheading-text {
@@ -155,6 +163,7 @@ button {
   text-align: center;
   padding-left: 10vw;
   padding-right: 10vw;
+  margin-bottom: 30px;
 }
 
 .card-img-top {
