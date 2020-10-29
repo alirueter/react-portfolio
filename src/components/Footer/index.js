@@ -18,16 +18,18 @@ const Footer = () => {
     ];
 
     return (
-        <footer className="footer">
-            <ul className="nav-list footer-list">
-                {links.map((link) => (
-                    <li className="list-item" key={link.name}>
-                        <a href={link.url} target="_blank" rel="noopener noreferrer">{link.name}</a>
-                    </li>
-                ))}
-            </ul>
-        </footer>
-
+        // <footer className="footer">
+        //     <ul className="nav-list footer-list">
+        //         {links.map((link) => (
+        //             <li className="list-item" key={link.name}>
+        //                 <a href={link.url} target="_blank" rel="noopener noreferrer">{link.name}</a>
+        //             </li>
+        //         ))}
+        //     </ul>
+        // </footer>
+        <div class="container">
+            <span class="text-muted">Place sticky footer content here.</span>
+        </div>
     );
 }
 

@@ -33,7 +33,7 @@ function App() {
       <main className="content-wrapper">
         {renderPage(currentPage)}
       </main>
-      <footer>
+      <footer class="footer mt-auto py-3">
         <Footer/>
       </footer>
     </div>

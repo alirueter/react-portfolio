@@ -62,8 +62,8 @@ function Projects() {
         <Container fluid class="container">
             {/* <hr class="line-1"></hr> */}
                 <h2 className="section-header">Projects</h2>
+                <hr class="line-2"></hr>
                 <p class="subheading-text">Below you will find projects that I have completed during my Coding Bootcamp. Each project includes a link to both the live application as well as its GitHub repository.</p>
-            <hr class="line-2"></hr>
             <CardColumns>
             {projects.map(project => (
                 <div key={project.name}>

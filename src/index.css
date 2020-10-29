@@ -70,15 +70,24 @@ html {
   box-sizing: border-box;
 }
 
-.footer {
-  /* position: absolute; */
+/* .footer {
+  position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
   padding: 1rem;
   background-color: #efefef;
   text-align: center;
+} */
+/* .container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
 }
+
+.footer {
+  background-color: #f5f5f5;
+} */
 
 .footer-list li {
   font-size: 14px;
@@ -95,9 +104,6 @@ html {
 /* footer styles -- END */
 
 /* about me styles -- START */
-.me-pic {
-  margin: 10px;
-}
 
 .about-text {
   margin-left: 10px;
@@ -150,11 +156,8 @@ button {
 /* contact page styling -- END */
 
 /* project page styling -- START */
-.line-1 {
-  margin-top: 5vw;
-}
 .line-2 {
-  margin-bottom: 7vw;
+  margin-bottom: 5vw;
 }
 
 .subheading-text {
@@ -163,7 +166,7 @@ button {
   text-align: center;
   padding-left: 10vw;
   padding-right: 10vw;
-  margin-bottom: 30px;
+  margin-bottom: 5vw;
 }
 
 .card-img-top {
