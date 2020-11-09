@@ -23,11 +23,11 @@ const projects = [
         style: "tech-blog"
     },
     {
-        name: "Note Taker",
-        liveUrl: "https://cryptic-mesa-12158.herokuapp.com/",
-        ghUrl: "https://github.com/alirueter/note-taker",
-        tech: "Express.js",
-        style: "note-taker"
+        name: "The Makers Corner",
+        liveUrl: "https://aqueous-hollows-86524.herokuapp.com/",
+        ghUrl: "https://github.com/Jleimer/The-Makers-Corner",
+        tech: "React, Apollo, Graphql, MongoDB, Mongoose, dotenv, JWT, Redux, Moment.js, Express, bcrypt, Stripe, Nodemon",
+        style: "makers-corner"
     },
     {
         name: "Find My Munchies",
