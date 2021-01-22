@@ -1,5 +1,5 @@
 import React from 'react';
-import resumePdf from "../../assets/Resume_A_Rueter.pdf";
+import resumePdf from "../../assets/resume.pdf";
 
 function Resume() {
     return(
