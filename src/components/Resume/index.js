@@ -1,11 +1,11 @@
 import React from 'react';
-import resumePdf from "../../assets/resume1.pdf";
+import resumepdf from '../../assets/pdfs/resume1.pdf';
 
 function Resume() {
     return(
         <section>
             <h2 className="section-header">Resume</h2>
-            <p className="res-link"> Download my <a href={resumePdf} download={resumePdf}>resume</a>.</p>
+            <p className="res-link"> Download my <a href={resumepdf} download={resumepdf}>resume</a>.</p>
         
             <h3>Front-end Proficiencies</h3>
             <ul className="prof-list">
