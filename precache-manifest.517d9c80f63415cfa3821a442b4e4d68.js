@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "70519c491df13d82a89a0cefda91d3a3",
+    "revision": "2d0d7498501e03f6becc91be7a394a62",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "6d46161e9c0d6513a49d",
+    "revision": "0fb37cd634d208aa7b7f",
     "url": "/react-portfolio/static/css/main.f1dec258.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/js/2.b19e5834.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6d46161e9c0d6513a49d",
-    "url": "/react-portfolio/static/js/main.7dac8e51.chunk.js"
+    "revision": "0fb37cd634d208aa7b7f",
+    "url": "/react-portfolio/static/js/main.8c0178d8.chunk.js"
   },
   {
     "revision": "aff33cef9dbb8787d6b3",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/media/makers-corner.c3e935c1.png"
   },
   {
-    "revision": "d83739c81a38a299a5c60b49f3d6afc7",
-    "url": "/react-portfolio/static/media/res-portfolio.d83739c8.pdf"
+    "revision": "da57f88e818aeab9a742f4969bfb76eb",
+    "url": "/react-portfolio/static/media/resume1.da57f88e.pdf"
   },
   {
     "revision": "d994af86011a76d7cdf7aa2da65af2a2",
